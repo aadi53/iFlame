@@ -12,6 +12,10 @@
 		8BE776931E8A72EC00D4057B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE776911E8A72EC00D4057B /* Main.storyboard */; };
 		8BE776951E8A72EC00D4057B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE776941E8A72EC00D4057B /* Assets.xcassets */; };
 		8BE776981E8A72EC00D4057B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE776961E8A72EC00D4057B /* LaunchScreen.storyboard */; };
+		8BE776A21E8A86B700D4057B /* StoryboardCustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE776A11E8A86B700D4057B /* StoryboardCustomCellViewController.swift */; };
+		8BE776A61E8A92FA00D4057B /* NibCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BE776A51E8A92FA00D4057B /* NibCustomCell.xib */; };
+		8BE776A81E8AAA8F00D4057B /* CustomCellClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE776A71E8AAA8F00D4057B /* CustomCellClassViewController.swift */; };
+		8BE776A91E8AB6D100D4057B /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE776A31E8A922000D4057B /* NibViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8BE776941E8A72EC00D4057B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BE776971E8A72EC00D4057B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BE776991E8A72EC00D4057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE776A11E8A86B700D4057B /* StoryboardCustomCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardCustomCellViewController.swift; sourceTree = "<group>"; };
+		8BE776A31E8A922000D4057B /* NibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibViewController.swift; sourceTree = "<group>"; };
+		8BE776A51E8A92FA00D4057B /* NibCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibCustomCell.xib; sourceTree = "<group>"; };
+		8BE776A71E8AAA8F00D4057B /* CustomCellClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellClassViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				8BE7768D1E8A72EC00D4057B /* AppDelegate.swift */,
 				8BE7768F1E8A72EC00D4057B /* ViewController.swift */,
+				8BE776A71E8AAA8F00D4057B /* CustomCellClassViewController.swift */,
+				8BE776A11E8A86B700D4057B /* StoryboardCustomCellViewController.swift */,
+				8BE776A31E8A922000D4057B /* NibViewController.swift */,
 				8BE776911E8A72EC00D4057B /* Main.storyboard */,
+				8BE776A51E8A92FA00D4057B /* NibCustomCell.xib */,
 				8BE776941E8A72EC00D4057B /* Assets.xcassets */,
 				8BE776961E8A72EC00D4057B /* LaunchScreen.storyboard */,
 				8BE776991E8A72EC00D4057B /* Info.plist */,
@@ -123,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE776A61E8A92FA00D4057B /* NibCustomCell.xib in Resources */,
 				8BE776981E8A72EC00D4057B /* LaunchScreen.storyboard in Resources */,
 				8BE776951E8A72EC00D4057B /* Assets.xcassets in Resources */,
 				8BE776931E8A72EC00D4057B /* Main.storyboard in Resources */,
@@ -137,6 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE776901E8A72EC00D4057B /* ViewController.swift in Sources */,
+				8BE776A81E8AAA8F00D4057B /* CustomCellClassViewController.swift in Sources */,
+				8BE776A21E8A86B700D4057B /* StoryboardCustomCellViewController.swift in Sources */,
+				8BE776A91E8AB6D100D4057B /* NibViewController.swift in Sources */,
 				8BE7768E1E8A72EC00D4057B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +313,7 @@
 				8BE7769E1E8A72EC00D4057B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
